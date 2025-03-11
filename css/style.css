@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-spacing: 10; 
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th, td {
+    border: 2px double black; 
+}
+tr:first-child th, tr:first-child td {
+    border-top: 4px double black; 
+}
+tr:last-child th, tr:last-child td {
+    border-bottom: 4px double black;
+}
+tr td {
+    border-right: 2px double black;
+    border-left: 2px double black;
+    
+}
